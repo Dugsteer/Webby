@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(42, 106, 143);
+}
+
+header {
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+.jumbotron {
+    background-color: #368cbf;
+    color: white;
+}
+
+#hero-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+#pdf-list {
+    margin: 20px;
+}
+
+.pdf-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.custom-card {
+    background-color: #f7d9c9; /* Example light grey color */
+}
+
+.custom-dropdown {
+    max-width: 250px; /* Adjust width as needed */
+    border-color: #007bff; /* Bootstrap primary color */
+}
+
+
+
+/* Optional: Custom styles for the dropdown options */
+.custom-dropdown option {
+    padding: 5px 10px;
+    background-color: white;
+    color: black;
+}
