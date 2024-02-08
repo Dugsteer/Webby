@@ -71,12 +71,15 @@
             <hr class="my-4">
             <div class="row align-items-center">
                 <div class="col">
-                    <p class="h3 mb-0">Explore a variety of lesson worksheets for ESL learning. No paywalls, no
-                        logins, just free stuff for English classes. If you like, <a
-                            href="https://www.buymeacoffee.com/Leca9BN" target="_blank" class="coffee">buy me a
-                            coffee.</a> </p>
-
+                    <p class="h3 mb-0 default-text">Explore a variety of lesson plans and resources for teaching English
+                        to kids and adults. No paywalls, no logins, just free ESL and ESOL games, speaking prompts and
+                        materials for teachers. If you like, maybe <a href="https://www.buymeacoffee.com/Leca9BN"
+                            target="_blank" class="coffee">buy me a coffee</a> and I'll be sure to add more.</p>
+                    <p class="h3 mb-0 mobile-text">Explore free ESL & ESOL resources. Like what you see? <a
+                            href="https://www.buymeacoffee.com/Leca9BN" target="_blank" class="coffee">Buy me a
+                            coffee!</a></p>
                 </div>
+
                 <div class="col-auto">
                     <select id="level-select" class="form-control form-control-lg custom-dropdown">
                         <option value="">Select a Level</option>
