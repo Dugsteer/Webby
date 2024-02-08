@@ -14,12 +14,31 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <title>ESL-ology Free Lesson Worksheets</title>
-    <link rel="stylesheet" href="./styles.css">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
     body {
         background-color: #d0eaf8;
     }
+
+    .mobile-text {
+        display: none;
+        /* Hide mobile text by default */
+    }
+
+    /* Media query for screens smaller than 768px */
+    @media (max-width: 768px) {
+        .default-text {
+            display: none;
+            /* Hide default text on small screens */
+        }
+
+        .mobile-text {
+            display: block;
+            /* Show mobile text on small screens */
+        }
+    }
+
 
     .footbg {
         background-color: #368cbf;
@@ -74,7 +93,7 @@
                     <p class="h3 mb-0 default-text">Explore a variety of lesson plans and resources for teaching English
                         to kids and adults. No paywalls, no logins, just free ESL and ESOL games, speaking prompts and
                         materials for teachers. If you like, maybe <a href="https://www.buymeacoffee.com/Leca9BN"
-                            target="_blank" class="coffee">buy me a coffee</a> and I'll be sure to add more.</p>
+                            target="_blank" class="coffee">buy me a coffee!</a></p>
                     <p class="h3 mb-0 mobile-text">Explore free ESL & ESOL resources. Like what you see? <a
                             href="https://www.buymeacoffee.com/Leca9BN" target="_blank" class="coffee">Buy me a
                             coffee!</a></p>

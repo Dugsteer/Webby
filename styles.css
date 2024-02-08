@@ -1,49 +1,61 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: rgb(42, 106, 143);
-}
+  body {
+        background-color: #d0eaf8;
+    }
 
-header {
-    text-align: center;
-    background-color: #f8f8f8;
-    padding: 20px;
-}
+    .mobile-text {
+        display: none;
+        /* Hide mobile text by default */
+    }
 
-.jumbotron {
-    background-color: #368cbf;
-    color: white;
-}
+    /* Media query for screens smaller than 768px */
+    @media (max-width: 768px) {
+        .default-text {
+            display: none;
+            /* Hide default text on small screens */
+        }
 
-#hero-image {
-    max-width: 100%;
-    height: auto;
-    margin-top: 10px;
-}
-
-#pdf-list {
-    margin: 20px;
-}
-
-.pdf-item {
-    margin-bottom: 15px;
-    padding: 10px;
-    border: 1px solid #ddd;
-}
-
-.custom-card {
-    background-color: #f7d9c9; /* Example light grey color */
-}
-
-.custom-dropdown {
-    max-width: 250px; /* Adjust width as needed */
-    border-color: #007bff; /* Bootstrap primary color */
-}
+        .mobile-text {
+            display: block;
+            /* Show mobile text on small screens */
+        }
+    }
 
 
+    .footbg {
+        background-color: #368cbf;
+        color: white;
+    }
 
-/* Optional: Custom styles for the dropdown options */
-.custom-dropdown option {
-    padding: 5px 10px;
-    background-color: white;
-    color: black;
-}
+    footer a {
+        color: white;
+    }
+
+    footer a:hover {
+        color: #ccc;
+    }
+
+    .coffee {
+        color: #ccc;
+
+    }
+
+    .coffee:hover {
+        color: yellow;
+    }
+
+
+    .jumbotron {
+        background-color: #368cbf;
+        color: white;
+    }
+
+    .whitebg {
+        background-color: #d0eaf8;
+
+    }
+
+    el-select-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
