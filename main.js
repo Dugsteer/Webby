@@ -30,7 +30,7 @@ function fetchPDFs(level) {
                     <h5 class="card-title">${pdf.sheet_title}</h5>
                     <p class="card-text">${pdf.sheet_description}</p>
                     <div class="d-flex justify-content-between align-items-center">
-                        <a href="${pdf.sheet_url}" class="btn btn-primary" download>Download</a>
+                        <a href="/docs/${pdf.sheet_url}" class="btn btn-primary" download>Download</a>
                         <span class="badge badge-pill badge-secondary custom-badge">${pdf.sheet_level}</span>
                     </div>
                 </div>
